@@ -1,4 +1,4 @@
-import stock from '../../stock.json'
+import stock from '../stock.json'
 
 export default function Header() {
     return (

@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import {useRouter} from 'next/router'
 import stock from '../../stock.json'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export default function Category() {
     const router = useRouter()
