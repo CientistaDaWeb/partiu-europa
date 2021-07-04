@@ -45,7 +45,7 @@ export default function Category() {
                     <Header/>
                     <Container>
                         <main className="pt-4 pb-4">
-                            <p className="text-amethyst">Items da Categoria > {categoryItems[0].name}</p>
+                            <h1 className="text-amethyst">Items da Categoria > {categoryItems[0].name}</h1>
                             <CardColumns>
                                 {items.map(function (item, index) {
                                     if (!item.available)

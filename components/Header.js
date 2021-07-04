@@ -10,7 +10,7 @@ export default function Header() {
             <header>
                 <Container>
                     <Navbar bg="turquoise" variant="dark" fixed="top" className="text-center" expand="md">
-                        <Navbar.Brand href="#home">Partiu Europa Bru e Nand0</Navbar.Brand>
+                        <Navbar.Brand href="/">Partiu Europa Bru e Nand0</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
