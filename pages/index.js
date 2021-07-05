@@ -29,7 +29,7 @@ export default function Home() {
                                     partida.
                                 </li>
                             </ol>
-                            <p>Mais informações em <a href="/sobre">sobre</a></p>
+                            <p>Mais informações em <b><a href="/sobre" className="text-amethyst">sobre</a></b></p>
                         </div>
                     </main>
                 </Container>

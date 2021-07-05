@@ -1,12 +1,16 @@
-export default function NegociarFernando(item) {
-    if(!item.owner || !item.owner.includes('N')){
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
+
+export default function NegociarFernando(props) {
+    if (!props.item.owner || !props.item.owner.includes('N')) {
         return false
     }
     return (
-            <a className="w-1/2 flex items-center justify-center rounded-md border border-gray-300"
-               href={`https://api.whatsapp.com/send?phone=5554996051020&text=Opa, estou interessado nesse item: "${item.name}", bora negociar?`}
+            <a className="btn btn-nando text-white m-2 align-middle"
+               href={`https://api.whatsapp.com/send?phone=5554996051020&text=Opa, estou interessado nesse item: "${props.item.name}", bora negociar?`}
                target="_blank"
-            >Negociar com o Nand0
+            >
+                <FontAwesomeIcon icon={faWhatsapp} size="xs" fixedWidth/> Nand0
             </a>
     )
 }

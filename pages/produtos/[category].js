@@ -51,7 +51,7 @@ export default function Category() {
                                     if (!item.available)
                                         return false
                                     return (
-                                            <Card key={index}>
+                                            <Card key={index} className="p-0">
                                                 <Card.Body className="bg-turquoise text-white">
                                                     <Carousel fade className="mb-3">
                                                         {item.photos.map(function (photo, index) {
@@ -69,11 +69,16 @@ export default function Category() {
                                                     <Card.Title>{item.name}</Card.Title>
                                                     <Card.Text dangerouslySetInnerHTML={{__html: item.description}}>
                                                     </Card.Text>
+                                                    <Card.Text>
+                                                        <p><b>{formatter.format(item.price)}</b><br />(Disponibilidade {item.disponibility})</p>
+                                                    </Card.Text>
                                                 </Card.Body>
-                                                <Card.Footer className="bg-amethyst text-white pl-4 pr-4">
-                                                    <p>{formatter.format(item.price)} (Disponibilidade {item.disponibility})</p>
-                                                    {/*<NegociarBruna item={item} />*/}
-                                                    {/*<NegociarFernando item={item} />*/}
+                                                <Card.Footer className="bg-amethyst text-white pl-4 pr-r">
+
+                                                    <p className="text-center">Negociar com:<br/>
+                                                        <NegociarBruna item={item}/>
+                                                        <NegociarFernando item={item}/>
+                                                    </p>
                                                 </Card.Footer>
                                             </Card>
                                     )

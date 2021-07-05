@@ -1,12 +1,16 @@
-export default function NegociarBruna(item) {
-    if(!item.owner || !item.owner.includes('B')){
-        return
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+
+export default function NegociarBruna(props) {
+    if (!props.item.owner || !props.item.owner.includes('B')) {
+        return false
     }
     return (
-            <a className="w-1/2 flex items-center justify-center rounded-md bg-black text-white"
-               href={`https://api.whatsapp.com/send?phone=5554999126898&text=Oi, queria muito o(a) ${item.name}, que tal me vender?`}
+            <a className="btn btn-bru text-white m-2 align-middle"
+               href={`https://api.whatsapp.com/send?phone=5554999126898&text=Oi, queria muito o(a) ${props.item.name}, que tal me vender?`}
                target="_blank"
-            >Negociar com a Bru
+            >
+                <FontAwesomeIcon icon={faWhatsapp} size="xs"/> Bru
             </a>
     )
 }

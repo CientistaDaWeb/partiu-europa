@@ -1,17 +1,35 @@
-.bg-turquoise{
+.bg-turquoise {
     background-color: #1ABC9C;
 }
-.text-turquoise{
+
+.text-turquoise {
     background-color: #1ABC9C;
 }
-.bg-amethyst{
+
+.bg-amethyst {
     background-color: #9B59B6;
 }
-.text-amethyst{
+
+.text-amethyst {
     color: #9B59B6;
 }
-.container main{
+
+.container main {
     margin-top: 60px;
 }
 
+.btn-bru {
+    background-color: #7EB1D7;
+}
 
+.btn-nando {
+    background-color: #155640;
+}
+
+.btn-bru svg, .btn-nando svg {
+    width: 16px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, .3);
+}
