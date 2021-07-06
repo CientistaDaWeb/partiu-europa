@@ -1,16 +1,9 @@
-import Head from 'next/head'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import {Container} from "react-bootstrap";
+import {Container} from "react-bootstrap"
+import Layout from "../components/Layout"
 
 export default function Home() {
     return (
-            <div>
-                <Head>
-                    <title>Home - Partiu Europa Bru e Nand0</title>
-                    <link rel="icon" href="/favicon.ico"/>
-                </Head>
-                <Header/>
+            <Layout title="Home - Partiu Europa Bru e Nand0">
                 <Container>
                     <main>
                         <h1 className="text-amethyst h4">Home</h1>
@@ -34,7 +27,6 @@ export default function Home() {
                         </div>
                     </main>
                 </Container>
-                <Footer/>
-            </div>
+            </Layout>
     )
 }

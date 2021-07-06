@@ -1,16 +1,9 @@
-import Head from 'next/head'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import {Container} from "react-bootstrap"
+import Layout from "../components/Layout";
 
 export default function Sobre() {
     return (
-            <div>
-                <Head>
-                    <title>Sobre - Partiu Europa Bru e Nand0</title>
-                    <link rel="icon" href="/favicon.ico"/>
-                </Head>
-                <Header/>
+            <Layout title="Sobre - Partiu Europa Bru e Nand0">
                 <Container>
                     <main>
                         <h1 className="text-amethyst h4">Sobre</h1>
@@ -25,7 +18,6 @@ export default function Sobre() {
                         <p>Como estamos indo embora, parcelamento fica difícil.</p>
                     </main>
                 </Container>
-                <Footer/>
-            </div>
+            </Layout>
     )
 }

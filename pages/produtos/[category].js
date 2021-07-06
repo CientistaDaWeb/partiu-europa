@@ -1,12 +1,10 @@
-import Head from 'next/head'
 import {useRouter} from 'next/router'
 import stock from '../../stock.json'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 import _ from 'lodash'
 import NegociarBruna from "../../components/negociar/Bruna"
 import NegociarFernando from "../../components/negociar/Fernando"
 import {Alert, Card, CardColumns, Carousel, Container} from "react-bootstrap"
+import Layout from "../../components/Layout"
 
 export default function Category() {
     const router = useRouter()
@@ -20,33 +18,22 @@ export default function Category() {
     })
     if (!categoryItems[0] || typeof categoryItems[0].items==='undefined' || categoryItems[0].items.length===0) {
         return (
-                <div>
-                    <Head>
-                        <title>Partiu Europa Bru e Nand0 - {categoryItems.name}</title>
-                        <link rel="icon" href="/favicon.ico"/>
-                    </Head>
-                    <Header/>
+                <Layout title={`Partiu Europa Bru e Nand0 - ${categoryItems.name}`}>
                     <Container>
                         <main>
-                            <h1 class="text-amethyst h4">Erro</h1>
+                            <h1 className="text-amethyst h4">Erro</h1>
                             <hr className="my-2"/>
                             <Alert variant="danger">
                                 Categoria não encontrada!
                             </Alert>
                         </main>
                     </Container>
-                    <Footer/>
-                </div>
+                </Layout>
         )
     } else {
         const items = _.orderBy(categoryItems[0].items, ['name'])
         return (
-                <div>
-                    <Head>
-                        <title>Partiu Europa Bru e Nand0 - {categoryItems[0].name}</title>
-                        <link rel="icon" href="/favicon.ico"/>
-                    </Head>
-                    <Header/>
+                <Layout title={`Partiu Europa Bru e Nand0 - ${categoryItems.name}`}>
                     <Container>
                         <main>
                             <h1 className="text-amethyst h4">Items da Categoria > {categoryItems[0].name}</h1>
@@ -92,8 +79,7 @@ export default function Category() {
                             </CardColumns>
                         </main>
                     </Container>
-                    <Footer/>
-                </div>
+                </Layout>
         )
     }
 }
