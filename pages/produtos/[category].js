@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 import _ from 'lodash'
 import NegociarBruna from "../../components/negociar/Bruna"
 import NegociarFernando from "../../components/negociar/Fernando"
-import {Card, CardColumns, Carousel, Container} from "react-bootstrap"
+import {Alert, Card, CardColumns, Carousel, Container} from "react-bootstrap"
 
 export default function Category() {
     const router = useRouter()
@@ -26,11 +26,15 @@ export default function Category() {
                         <link rel="icon" href="/favicon.ico"/>
                     </Head>
                     <Header/>
-                    <main className="container mx-auto">
-                        <div className="bg-white dark:bg-gray-800">
-                            Nenhum item encontrado
-                        </div>
-                    </main>
+                    <Container>
+                        <main>
+                            <h1 class="text-amethyst h4">Erro</h1>
+                            <hr className="my-2"/>
+                            <Alert variant="danger">
+                                Categoria não encontrada!
+                            </Alert>
+                        </main>
+                    </Container>
                     <Footer/>
                 </div>
         )
@@ -44,16 +48,17 @@ export default function Category() {
                     </Head>
                     <Header/>
                     <Container>
-                        <main className="pt-4 pb-4">
-                            <h1 className="text-amethyst">Items da Categoria > {categoryItems[0].name}</h1>
+                        <main>
+                            <h1 className="text-amethyst h4">Items da Categoria > {categoryItems[0].name}</h1>
+                            <hr className="my-2"/>
                             <CardColumns>
                                 {items.map(function (item, index) {
                                     if (!item.available)
                                         return false
                                     return (
-                                            <Card key={index} className="p-0">
-                                                <Card.Body className="bg-turquoise text-white">
-                                                    <Carousel fade className="mb-3">
+                                            <Card key={index}>
+                                                <Card.Body className="bg-turquoise text-white p-0">
+                                                    <Carousel fade className="mb-2">
                                                         {item.photos.map(function (photo, index) {
                                                             return (
                                                                     <Carousel.Item key={index}>
@@ -66,16 +71,17 @@ export default function Category() {
                                                             )
                                                         })}
                                                     </Carousel>
-                                                    <Card.Title>{item.name}</Card.Title>
-                                                    <Card.Text dangerouslySetInnerHTML={{__html: item.description}}>
-                                                    </Card.Text>
-                                                    <Card.Text>
-                                                        <p><b>{formatter.format(item.price)}</b><br />(Disponibilidade {item.disponibility})</p>
+                                                    <Card.Title className="p-2">{item.name}</Card.Title>
+                                                    <Card.Text className="p-2"
+                                                               dangerouslySetInnerHTML={{__html: item.description}}/>
+                                                    <Card.Text className="p-2">
+                                                        <p>
+                                                            <b>{formatter.format(item.price)}</b><br/>(Disponibilidade {item.disponibility})
+                                                        </p>
                                                     </Card.Text>
                                                 </Card.Body>
-                                                <Card.Footer className="bg-amethyst text-white pl-4 pr-r">
-
-                                                    <p className="text-center">Negociar com:<br/>
+                                                <Card.Footer className="bg-amethyst text-white p-0">
+                                                    <p className="text-center align-middle mb-0">Negociar com:
                                                         <NegociarBruna item={item}/>
                                                         <NegociarFernando item={item}/>
                                                     </p>

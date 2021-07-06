@@ -3,7 +3,6 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import {Container} from "react-bootstrap";
 
-
 export default function Home() {
     return (
             <div>
@@ -13,10 +12,11 @@ export default function Home() {
                 </Head>
                 <Header/>
                 <Container>
-                    <main className="pt-4 pb-4">
-                        <h1 className="text-amethyst">Home</h1>
-                        <div className="jumbotron">
-                            <h1 className="display-4">Venda de garagem da Bru e do Nand0</h1>
+                    <main>
+                        <h1 className="text-amethyst h4">Home</h1>
+                        <hr className="my-2"/>
+                        <div className="jumbotron pt-4 pb-4">
+                            <h1 className="h2">Venda de garagem da Bru e do Nand0</h1>
                             <p className="lead">Você pode navegar pelas categorias no menu e demonstrar interesse pelos
                                 itens clicando no
                                 botão de negociar.</p>
@@ -28,6 +28,7 @@ export default function Home() {
                                 <li>Alguns itens não estão disponíveis imediatamente, ainda usaremos até nossa
                                     partida.
                                 </li>
+                                <li>Os itens devem ser retirados em nosso apartamento, não enviamos.</li>
                             </ol>
                             <p>Mais informações em <b><a href="/sobre" className="text-amethyst">sobre</a></b></p>
                         </div>
