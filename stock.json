@@ -70,7 +70,7 @@
         "buyer": "",
         "owner": ["B","N"],
         "photos": [
-          "/images/dowload.jfif"
+          "/images/roller.jfif"
         ]
       },
       {
@@ -122,6 +122,25 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Papelaria",
+    "slug": "papelaria",
+    "available": true,
+    "items": [
+      {
+        "name": "Refiladora",
+        "description": "Corta até 4 folhas por vez, faz finco e corte ondulado.",
+        "price": 70.00,
+        "disponibility": "Novembro",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/refiladora.png"
         ]
       }
     ]
