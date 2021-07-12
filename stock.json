@@ -188,7 +188,7 @@
       },
       {
         "name": "Livros Set 4",
-        "description": "Venda individual, valor por item. Em Português: ATADO DE ERVAS (Ana Mariano), ENSAIO SOBRE A CEGUEIRA (José Saramago), STELLA MANHATTAN (Silviano Santiago), AS MULHERES DE TERÇA FEIRA (Monika Peetz), RONDAS DE ESCÁRNIO E LOUCURA (Sérgio Faraco) e MORANGOS MOFADOS (Caio Fernando Abreu)",
+        "description": "Em Português: ATADO DE ERVAS (Ana Mariano), ENSAIO SOBRE A CEGUEIRA (José Saramago), STELLA MANHATTAN (Silviano Santiago), AS MULHERES DE TERÇA FEIRA (Monika Peetz), RONDAS DE ESCÁRNIO E LOUCURA (Sérgio Faraco) e MORANGOS MOFADOS (Caio Fernando Abreu) >br< Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -196,6 +196,18 @@
         "owner": ["B"],
         "photos": [
           "/images/livrosset4.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 5",
+        "description": "Em Português: COMER, REZAR E AMAR (Elisabeth Gilbert),<br/>COMPROMETIDA (Elizabeth Gilbert),<br/>BEBER, JOGAR E F@#DER (Andrew Gottlieb),<br/>MARLEY E EU (John Grogan).<br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset5.jpg"
         ]
       }
     ]
