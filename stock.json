@@ -152,7 +152,7 @@
     "items": [
       {
         "name": "Livros Set 1",
-        "description": "Em Português:<br/>Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor.<br/><br/>Venda da coleção completa, valor total.",
+        "description": "Em Português:<br/>Trilogia O SÉCULO, de Ken Follett (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor.<br/><br/>Venda da coleção completa, valor total.",
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
@@ -224,7 +224,7 @@
       },
       {
         "name": "Livros Set 7",
-        "description": "Em Português:<br/>EU SOU O MENSAGEIRO, (Markus Zusak),<br/>O PERFUME (Patrick Suskind),<br/>HISTÓRIAS DA NOITE (Rafik Schami),ONTEM NÃO TE VI EM BABILÓNIA (António Lobo Antunes).<br/><br/>Venda individual, valor por item.",
+        "description": "Em Português:<br/>EU SOU O MENSAGEIRO, (Markus Zusak),<br/>O PERFUME (Patrick Suskind),<br/>HISTÓRIAS DA NOITE (Rafik Schami),<br/>ONTEM NÃO TE VI EM BABILÓNIA (António Lobo Antunes).<br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -244,6 +244,138 @@
         "owner": ["B"],
         "photos": [
           "/images/livrosset7b.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 9",
+        "description": "Em Português:<br/>A CARTA ROUBADA, (Edgar Allan Poe),<br/>OS OLHOS DO DRAGÃO (Stephen King),<br/>O CASO DE CHARLES DEXTER WARD (H. P. Lovecraft),<br/>FRANKENSTEIN (Mary Shelley).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset8.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 10",
+        "description": "Em Português:<br/>O NOVIÇO, (Martins Pena),<br/>A GAIVOTA (Anton Tchekhov),<br/>MANUAL DO ATOR (C. Stanislavski),<br/>MEDÉIA (Eurípedes),<br/>HAMLET (William Shakespeare),<br/>A MEGERA DOMADA (William Shakespeare).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset9.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 11",
+        "description": "Em Português:<br/>O CRIME DO PADRE AMARO, (Eça de Queiroz),<br/>O PRIMO BASÍLIO (Eça de Queiroz),<br/>SENHORA (José de Alencar),<br/>IRACEMA (José de Alencar),<br/>O ALIENISTA (Machado de Assis),<br/>QUINCAS BORBA (Machado de Assis),<br/>CONTOS (Machado de Assis),<br/>A MORENINHA (Joaquim Manuel de Macedo).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset10.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 12",
+        "description": "Em Português:<br/>MADAME ORÁCULO, (Margaret Atwood),<br/>O ATENEU (Raul Pompéia),<br/>INCIDENTE EM ANTARES (Érico Veríssimo),<br/>O CORTIÇO (Aluísio Azevedo),<br/>AS VIAGENS DE GULLIVER (Jonathan Swift),<br/>TRÓIA (Cláudio Moreno).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset11.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 13",
+        "description": "Em Português, LIVROS DE TIRINHAS:<br/>SNOOPY, livros 1, 2, 3, 4, 8, 9 e 10 (Schulz),<br/>GARFIELD, livros 1 ao 10 (Jim Davis),<br/>DILBERT, livro 7 (Scott Adams),<br/>RADICCI, livro 1 (Iotti),<br/>MAFALDA, livro 4 (Quino).<br/><br/>Venda individual, valor por item.",
+        "price": 2.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset12.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 14",
+        "description": "Em Português:<br/>UMA PULGA NA CAMISOLA, (Max Nunes),<br/>AS MENTIRAS QUE OS HOMENS CONTAM (Luís Fernando Veríssimo),<br/>O ANALISTA DE BAGÉ (Luís Fernando Veríssimo),<br/>CUCA FUNDIDA (Woody Allen),<br/>O BAIRRISTA (Júnior Maicá).<br/><br/>Venda individual, valor por item.",
+        "price": 2.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset12b.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 15",
+        "description": "Em Português, QUADRINHOS:<br/>A BELA ADORMECIDA (adaptação de Martin Powell),<br/>LESTER (Márcio Rampi),<br/>RADIOACTIVE - história e livro de colorir (Alice Grosseman Mattosinho).<br/><br/>Venda individual, valor por item.",
+        "price": 2.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset13.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 16",
+        "description": "Em Inglês:<br/>TESS OF THE D'UBERVILLES (Thomas Hardy),<br/>FRANKENSTEIN (Mary Shelley),<br/>PERSUASION (Jane Austen),<br/>A WOMAN OF NO IMPORTANCE (Oscar Wilde),<br/>ROBINSON CRUSOE (Daniel Defoe).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset15.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 17",
+        "description": "Em Inglês:<br/>DUBLINERS (James Joyce),<br/>THE TURN OF THE SCREW (Henry James),<br/>OLIVER TWIST (Charles Dickens),<br/>WUTHERING HEIGHTS (Emily Brontë),<br/>THE GRAPES OF WRATH (John Steinbeck),<br/>OTHELLO (William Shakespeare).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset16.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 18",
+        "description": "Em Inglês:<br/>THE PICTURE OF DORIAN GRAY (Oscar Wilde),<br/>MRS DALLOWAY (Virginia Woolf),<br/>THE DIARY OF A NOBODY (George and Weedon Grossmith),<br/>ANIMAL FARM (George Orwell),<br/>AN IDEAL HUSBAND (Oscar Wilde),<br/>THE AWEKENING (Kate Chopin).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset17.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 19",
+        "description": "Em Inglês:<br/>EYE OF THE NEEDLE (Ken Follett),<br/>ANGELS AND DEMONS (Dan Brown),<br/>CHANGING PLACES (David Lodge),<br/>THE HOURS (Michael Cunningham),<br/>ENDGAME + ACT WITHOUT WORDS (Samuel Beckett).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset18.jpg"
         ]
       }
     ]
