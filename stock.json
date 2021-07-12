@@ -152,7 +152,7 @@
     "items": [
       {
         "name": "Livros Set 1",
-        "description": "Em Português: Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor",
+        "description": "Venda da coleção completa, valor total. Em Português: Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor",
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
@@ -164,7 +164,7 @@
       },
       {
         "name": "Livros Set 2",
-        "description": "Em Português: Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz",
+        "description": "Venda da coleção completa, valor total. Em Português: Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz",
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
@@ -172,6 +172,30 @@
         "owner": ["B"],
         "photos": [
           "/images/livrosset2.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 3",
+        "description": "Em Português: A SOMBRA DO VENTO, de Carlos Ruiz Zafón",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset3.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 4",
+        "description": "Venda individual, valor por item. Em Português: ATADO DE ERVAS (Ana Mariano), ENSAIO SOBRE A CEGUEIRA (José Saramago), STELLA MANHATTAN (Silviano Santiago), AS MULHERES DE TERÇA FEIRA (Monika Peetz), RONDAS DE ESCÁRNIO E LOUCURA (Sérgio Faraco) e MORANGOS MOFADOS (Caio Fernando Abreu)",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset4.jpg"
         ]
       }
     ]
