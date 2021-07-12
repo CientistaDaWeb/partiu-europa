@@ -152,7 +152,7 @@
     "items": [
       {
         "name": "Livros Set 1",
-        "description": "Venda da coleção completa, valor total. Em Português: Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor",
+        "description": "Em Português:<br/>Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor.<br/><br/>Venda da coleção completa, valor total.",
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
@@ -164,7 +164,7 @@
       },
       {
         "name": "Livros Set 2",
-        "description": "Venda da coleção completa, valor total. Em Português: Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz",
+        "description": "Em Português:<br/>Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz.<br/><br/>Venda da coleção completa, valor total.",
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
@@ -188,7 +188,7 @@
       },
       {
         "name": "Livros Set 4",
-        "description": "Em Português: ATADO DE ERVAS (Ana Mariano), ENSAIO SOBRE A CEGUEIRA (José Saramago), STELLA MANHATTAN (Silviano Santiago), AS MULHERES DE TERÇA FEIRA (Monika Peetz), RONDAS DE ESCÁRNIO E LOUCURA (Sérgio Faraco) e MORANGOS MOFADOS (Caio Fernando Abreu) >br< Venda individual, valor por item.",
+        "description": "Em Português:<br/>ATADO DE ERVAS (Ana Mariano),<br/>ENSAIO SOBRE A CEGUEIRA (José Saramago),<br/>STELLA MANHATTAN (Silviano Santiago),<br/>AS MULHERES DE TERÇA FEIRA (Monika Peetz),<br/>RONDAS DE ESCÁRNIO E LOUCURA (Sérgio Faraco),<br/>MORANGOS MOFADOS (Caio Fernando Abreu).<br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -200,7 +200,7 @@
       },
       {
         "name": "Livros Set 5",
-        "description": "Em Português: COMER, REZAR E AMAR (Elisabeth Gilbert),<br/>COMPROMETIDA (Elizabeth Gilbert),<br/>BEBER, JOGAR E F@#DER (Andrew Gottlieb),<br/>MARLEY E EU (John Grogan).<br/>Venda individual, valor por item.",
+        "description": "Em Português:<br/>COMER, REZAR E AMAR (Elisabeth Gilbert),<br/>COMPROMETIDA (Elizabeth Gilbert),<br/>BEBER, JOGAR E F@#DER (Andrew Gottlieb),<br/>MARLEY E EU (John Grogan).<br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -208,6 +208,42 @@
         "owner": ["B"],
         "photos": [
           "/images/livrosset5.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 6",
+        "description": "Em Português:<br/>Coleção CRÔNICAS SAXÔNICAS, livros 1 a 6 (Bernard Cornwell).<br/><br/>Venda da coleção (a coleção completa tem 12 livros, só temos os 6 primeiros), valor total.",
+        "price": 25.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset6.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 7",
+        "description": "Em Português:<br/>EU SOU O MENSAGEIRO, (Markus Zusak),<br/>O PERFUME (Patrick Suskind),<br/>HISTÓRIAS DA NOITE (Rafik Schami),ONTEM NÃO TE VI EM BABILÓNIA (António Lobo Antunes).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset7.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 8",
+        "description": "Em Português:<br/>CONEXÕES, (Superinteressante),<br/>E SE... (Superinteressante),<br/>SANTA SEDE (Rubem Penz).<br/><br/>Venda individual, valor por item.",
+        "price": 5.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset7b.jpg"
         ]
       }
     ]
