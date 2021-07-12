@@ -133,7 +133,7 @@
     "items": [
       {
         "name": "Refiladora",
-        "description": "Corta até 4 folhas por vez, faz finco e corte ondulado.",
+        "description": "Corta até 4 folhas por vez, faz vinco e corte ondulado.",
         "price": 70.00,
         "disponibility": "Novembro",
         "available": true,
@@ -141,6 +141,37 @@
         "owner": ["B"],
         "photos": [
           "/images/refiladora.png"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Livros",
+    "slug": "livros",
+    "available": true,
+    "items": [
+      {
+        "name": "Livros Set 1",
+        "description": "Em Português: Trilogia O SÉCULO, de Ken Follet (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor",
+        "price": 20.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset1.jpg"
+        ]
+      },
+      {
+        "name": "Livros Set 2",
+        "description": "Em Português: Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz",
+        "price": 20.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livrosset2.jpg"
         ]
       }
     ]
