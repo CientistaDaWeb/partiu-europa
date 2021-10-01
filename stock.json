@@ -239,8 +239,8 @@
         "description": "Em Português:<br/>A CARTA ROUBADA, (Edgar Allan Poe),<br/>OS OLHOS DO DRAGÃO (Stephen King),<br/>O CASO DE CHARLES DEXTER WARD (H. P. Lovecraft),<br/>FRANKENSTEIN (Mary Shelley).<br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
-        "available": true,
-        "buyer": "",
+        "available": false,
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset8.jpg"
@@ -287,8 +287,8 @@
         "description": "Em Português, LIVROS DE TIRINHAS:<br/>SNOOPY, livros 1, 2, 3, 4, 8, 9 e 10 (Schulz),<br/><s>GARFIELD, livros 1 ao 10 (Jim Davis)</s>,<br/>DILBERT, livro 7 (Scott Adams),<br/>RADICCI, livro 1 (Iotti),<br/>MAFALDA, livro 4 (Quino).<br/><br/>Venda individual, valor por item.",
         "price": 2.00,
         "disponibility": "Imediata",
-        "available": true,
-        "buyer": "Cristiano Ivo Bertoldo (Garfield)",
+        "available": false,
+        "buyer": "Cristiano Ivo Bertoldo (Garfield), Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset12.jpg"
@@ -299,8 +299,8 @@
         "description": "Em Português:<br/>UMA PULGA NA CAMISOLA, (Max Nunes),<br/>AS MENTIRAS QUE OS HOMENS CONTAM (Luís Fernando Veríssimo),<br/>O ANALISTA DE BAGÉ (Luís Fernando Veríssimo),<br/>CUCA FUNDIDA (Woody Allen),<br/>O BAIRRISTA (Júnior Maicá).<br/><br/>Venda individual, valor por item.",
         "price": 2.00,
         "disponibility": "Imediata",
-        "available": true,
-        "buyer": "",
+        "available": false,
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset12b.jpg"
