@@ -143,7 +143,7 @@
         "description": "Em Português:<br/>Trilogia O SÉCULO, de Ken Follett (maravilhoso!!!!) + AS ESPIÃS DO DIA D, do mesmo autor.<br/><br/>Venda da coleção completa, valor total.",
         "price": 20.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
@@ -155,7 +155,7 @@
         "description": "Em Português:<br/>Coleção MILLENNIUM, de Stieg Larsson, continuada por David Lagercrantz.<br/><br/>Venda da coleção completa, valor total.",
         "price": 20.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
@@ -167,7 +167,7 @@
         "description": "Em Português: A SOMBRA DO VENTO, de Carlos Ruiz Zafón",
         "price": 5.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
@@ -203,7 +203,7 @@
         "description": "Em Português:<br/>Coleção CRÔNICAS SAXÔNICAS, livros 1 a 6 (Bernard Cornwell).<br/><br/>Venda da coleção (a coleção completa tem 12 livros, só temos os 6 primeiros), valor total.",
         "price": 25.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
@@ -284,7 +284,7 @@
       },
       {
         "name": "Livros Set 13",
-        "description": "Em Português, LIVROS DE TIRINHAS:<br/>SNOOPY, livros 1, 2, 3, 4, 8, 9 e 10 (Schulz),<br/>GARFIELD, livros 1 ao 10 (Jim Davis),<br/>DILBERT, livro 7 (Scott Adams),<br/>RADICCI, livro 1 (Iotti),<br/>MAFALDA, livro 4 (Quino).<br/><br/>Venda individual, valor por item.",
+        "description": "Em Português, LIVROS DE TIRINHAS:<br/>SNOOPY, livros 1, 2, 3, 4, 8, 9 e 10 (Schulz),<br/><s>GARFIELD, livros 1 ao 10 (Jim Davis)</s>,<br/>DILBERT, livro 7 (Scott Adams),<br/>RADICCI, livro 1 (Iotti),<br/>MAFALDA, livro 4 (Quino).<br/><br/>Venda individual, valor por item.",
         "price": 2.00,
         "disponibility": "Imediata",
         "available": true,
