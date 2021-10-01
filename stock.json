@@ -144,7 +144,7 @@
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "",
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset1.jpg"
@@ -156,7 +156,7 @@
         "price": 20.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "",
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset2.jpg"
@@ -168,7 +168,7 @@
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "",
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset3.jpg"
@@ -204,7 +204,7 @@
         "price": 25.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "",
+        "buyer": "Eliezer",
         "owner": ["B"],
         "photos": [
           "/images/livrosset6.jpg"
@@ -288,7 +288,7 @@
         "price": 2.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "Cristiano Ivo Bertoldo",
+        "buyer": "Cristiano Ivo Bertoldo (Garfield)",
         "owner": ["B"],
         "photos": [
           "/images/livrosset12.jpg"
