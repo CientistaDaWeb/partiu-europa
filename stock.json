@@ -62,18 +62,6 @@
         ]
       },
       {
-        "name": "qualquer coisa ali",
-        "description": "Roller do Nand0",
-        "price": 900.00,
-        "disponibility": "Outubro/Novembro",
-        "available": true,
-        "buyer": "",
-        "owner": ["B","N"],
-        "photos": [
-          "/images/roller.jfif"
-        ]
-      },
-      {
         "name": "Skate Longboard completo Pgs - Nature (Urban Sports) + Capacete",
         "description": "Skate do Nand0",
         "price": 280.00,
@@ -300,7 +288,7 @@
         "price": 2.00,
         "disponibility": "Imediata",
         "available": true,
-        "buyer": "",
+        "buyer": "Cristiano Ivo Bertoldo",
         "owner": ["B"],
         "photos": [
           "/images/livrosset12.jpg"
