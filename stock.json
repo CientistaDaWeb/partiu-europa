@@ -88,7 +88,7 @@
         "description": "Bicicleta muito boa e suporta um bom peso",
         "price": 1000.00,
         "disponibility": "Outubro/Novembro",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
@@ -212,7 +212,7 @@
       },
       {
         "name": "Livros Set 7",
-        "description": "Em Português:<br/>EU SOU O MENSAGEIRO, (Markus Zusak),<br/>O PERFUME (Patrick Suskind),<br/>HISTÓRIAS DA NOITE (Rafik Schami),<br/>ONTEM NÃO TE VI EM BABILÓNIA (António Lobo Antunes).<br/><br/>Venda individual, valor por item.",
+        "description": "Em Português:<br/>EU SOU O MENSAGEIRO, (Markus Zusak),<br/>O PERFUME (Patrick Suskind),<br/><s>HISTÓRIAS DA NOITE (Rafik Schami)</s>,<br/>ONTEM NÃO TE VI EM BABILÓNIA (António Lobo Antunes).<br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -224,7 +224,7 @@
       },
       {
         "name": "Livros Set 8",
-        "description": "Em Português:<br/>CONEXÕES, (Superinteressante),<br/>E SE... (Superinteressante),<br/>SANTA SEDE (Rubem Penz).<br/><br/>Venda individual, valor por item.",
+        "description": "Em Português:<br/>CONEXÕES, (Superinteressante),<br/>E SE... (Superinteressante),<br/><s>SANTA SEDE (Rubem Penz).<s/><br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
@@ -272,7 +272,7 @@
       },
       {
         "name": "Livros Set 12",
-        "description": "Em Português:<br/>MADAME ORÁCULO, (Margaret Atwood),<br/>O ATENEU (Raul Pompéia),<br/>INCIDENTE EM ANTARES (Érico Veríssimo),<br/>O CORTIÇO (Aluísio Azevedo),<br/>AS VIAGENS DE GULLIVER (Jonathan Swift),<br/>TRÓIA (Cláudio Moreno).<br/><br/>Venda individual, valor por item.",
+        "description": "Em Português:<br/>MADAME ORÁCULO, (Margaret Atwood),<br/>O ATENEU (Raul Pompéia),<br/><s>INCIDENTE EM ANTARES (Érico Veríssimo),</s><br/>O CORTIÇO (Aluísio Azevedo),<br/><s>AS VIAGENS DE GULLIVER (Jonathan Swift),<br/>TRÓIA (Cláudio Moreno).</s><br/><br/>Venda individual, valor por item.",
         "price": 5.00,
         "disponibility": "Imediata",
         "available": true,
