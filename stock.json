@@ -26,7 +26,7 @@
     "available": true,
     "items": [
       {
-        "name": "Bicicleta Caloi Htx Sport - Aro 26 - 21 Marchas",
+        "name": "Bicicleta Caloi Htx Sport - Aro 26 - 21 Marchas + Capacete",
         "description": "Bicicleta pouco usada, com banco e câmbio customizados para suportar um peso maior",
         "price": 900.00,
         "disponibility": "Imediata",
@@ -34,13 +34,16 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
-          "/images/bicicleta.jpg",
+          "/images/bicicleta1.jpg",
           "/images/bicicleta2.jpg",
-          "/images/bicicleta3.jpg"
+          "/images/capacete_bicicleta1.jpg",
+          "/images/capacete_bicicleta2.jpg",
+          "/images/capacete_bicicleta_rosa1.jpg",
+          "/images/capacete_bicicleta_rosa2.jpg"
         ]
       },
       {
-        "name": "Patins HD Inline sports 80mm + equipamentos (Koncept Inline)",
+        "name": "Patins HD Inline sports 80mm + equipamentos (Koncept Inline) + Capacete",
         "description": "Roller da Bruna",
         "price": 250.00,
         "disponibility": "Outubro/Novembro",
@@ -48,6 +51,11 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
+          "/images/roller1.jpg",
+          "/images/roller2.jpg",
+          "/images/capacete_roller1.jpg",
+          "/images/capacete_roller2.jpg",
+          "/images/kit_roller.jpg"
         ]
       },
       {
@@ -55,7 +63,7 @@
         "description": "Roller do Nand0",
         "price": 600.00,
         "disponibility": "Outubro/Novembro",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
@@ -70,6 +78,9 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
+          "/images/skate1.jpg",
+          "/images/skate2.jpg",
+          "/images/skate3.jpg"
         ]
       },
       {
@@ -110,6 +121,47 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
+          "images/avell1.jpg",
+          "images/avell2.jpg",
+          "images/avell3.jpg",
+          "images/avell4.jpg"
+        ]
+      },
+      {
+        "name": "Monitor LG 20mk400h Led 19.5 Preto-fosco",
+        "description": "",
+        "price": 400.00,
+        "disponibility": "Outubro/Novembro",
+        "available": true,
+        "buyer": "",
+        "owner": ["N"],
+        "photos": [
+          "images/monitor_lg.jpg"
+        ]
+      },
+      {
+        "name": "Monitor Gamer LG 29UM69G-BAWZ Pro Gamer - 29” LED Full HD UltraWide IPS",
+        "description": "",
+        "price": 900.00,
+        "disponibility": "Outubro/Novembro",
+        "available": true,
+        "buyer": "",
+        "owner": ["N"],
+        "photos": [
+          "images/monitor_wide_lg.jpg"
+        ]
+      },
+      {
+        "name": "Cadeira DX Racer Tank (T30-N)",
+        "description": "Tem alguns detalhes de gasto no couro, do uso diário, mas a DX Racer vende hoje em dia umas capas para esse tipo de problema",
+        "price": 1500.00,
+        "disponibility": "Outubro/Novembro",
+        "available": true,
+        "buyer": "",
+        "owner": ["N"],
+        "photos": [
+          "images/cadeira_dxracer1.jpg",
+          "images/cadeira_dxracer2.jpg"
         ]
       }
     ]
