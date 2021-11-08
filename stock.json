@@ -121,10 +121,10 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
-          "images/avell1.jpg",
-          "images/avell2.jpg",
-          "images/avell3.jpg",
-          "images/avell4.jpg"
+          "/images/avell1.jpg",
+          "/images/avell2.jpg",
+          "/images/avell3.jpg",
+          "/images/avell4.jpg"
         ]
       },
       {
@@ -136,7 +136,7 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
-          "images/monitor_lg.jpg"
+          "/images/monitor_lg.jpg"
         ]
       },
       {
@@ -148,7 +148,7 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
-          "images/monitor_wide_lg.jpg"
+          "/images/monitor_wide_lg.jpg"
         ]
       },
       {
@@ -160,8 +160,8 @@
         "buyer": "",
         "owner": ["N"],
         "photos": [
-          "images/cadeira_dxracer1.jpg",
-          "images/cadeira_dxracer2.jpg"
+          "/images/cadeira_dxracer1.jpg",
+          "/images/cadeira_dxracer2.jpg"
         ]
       }
     ]
