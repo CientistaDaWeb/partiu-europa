@@ -63,7 +63,9 @@ export default function Category() {
                                                                dangerouslySetInnerHTML={{__html: item.description}}/>
                                                     <Card.Text className="p-2">
                                                         <p>
-                                                            <b>{formatter.format(item.price)}</b><br/>(Disponibilidade {item.disponibility})
+                                                            {item.oldPrice > 0 &&
+                                                            <s className="oldPrice">{formatter.format(item.oldPrice)}</s>} <b>{formatter.format(item.price)}</b>
+                                                            <br/>(Disponibilidade {item.disponibility})
                                                         </p>
                                                     </Card.Text>
                                                 </Card.Body>

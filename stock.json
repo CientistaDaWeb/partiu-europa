@@ -8,6 +8,7 @@
         "name": "Exemplo",
         "description": "Descrição",
         "price": 112.99,
+        "oldPrice": 120.99,
         "disponibility": "Imediata",
         "available": true,
         "buyer": "",
@@ -28,7 +29,8 @@
       {
         "name": "Bicicleta Caloi Htx Sport - Aro 26 - 21 Marchas + Capacete",
         "description": "Bicicleta pouco usada, com banco e câmbio customizados para suportar um peso maior",
-        "price": 900.00,
+        "price": 800.00,
+        "oldPrice": 900.00,
         "disponibility": "Imediata",
         "available": true,
         "buyer": "",
@@ -72,7 +74,8 @@
       {
         "name": "Skate Longboard completo Pgs - Nature (Urban Sports) + Capacete",
         "description": "Skate do Nand0",
-        "price": 280.00,
+        "price": 230.00,
+        "oldPrice": 280.00,
         "disponibility": "Imediata",
         "available": true,
         "buyer": "",
@@ -97,7 +100,8 @@
       {
         "name": "Bicicleta Spinning com roda de inércia de 8kg WCT Fitness",
         "description": "Bicicleta muito boa e suporta um bom peso",
-        "price": 1000.00,
+        "price": 900.00,
+        "oldPrice": 1000.00,
         "disponibility": "Outubro/Novembro",
         "available": false,
         "buyer": "",
@@ -115,7 +119,8 @@
       {
         "name": "Notebook FULLRANGE W1711 MXTI",
         "description": "Intel® Core™ i7-7700HQ Kaby Lake (6Mb cache até 3.8 GHZ)<br/>NVIDIA GeForce GTX 1050TI GPU (4GB GDDR5)<br/>32 GB Memória DDR4 (2400 MHZ)<br/>SSHD 1 TB com 8GB SSD<br/>SATA M.2 - 480GB SSD - [ 500 Mb/s ]<br/>17.3\" IPS FULLHD 16:9 (1920x1080p) LED-Backlit Matte<br/>",
-        "price": 6000.00,
+        "price": 5400.00,
+        "oldPrice": 6000.00,
         "disponibility": "Outubro/Novembro",
         "available": true,
         "buyer": "",
@@ -130,7 +135,8 @@
       {
         "name": "Monitor LG 20mk400h Led 19.5 Preto-fosco",
         "description": "",
-        "price": 400.00,
+        "price": 350.00,
+        "oldPrice": 400.00,
         "disponibility": "Outubro/Novembro",
         "available": true,
         "buyer": "",
@@ -142,7 +148,8 @@
       {
         "name": "Monitor Gamer LG 29UM69G-BAWZ Pro Gamer - 29” LED Full HD UltraWide IPS",
         "description": "",
-        "price": 900.00,
+        "price": 800.00,
+        "oldPrice": 900.00,
         "disponibility": "Outubro/Novembro",
         "available": true,
         "buyer": "",
@@ -154,7 +161,8 @@
       {
         "name": "Cadeira DX Racer Tank (T30-N)",
         "description": "Tem alguns detalhes de gasto no couro, do uso diário, mas a DX Racer vende hoje em dia umas capas para esse tipo de problema",
-        "price": 1500.00,
+        "price": 1300.00,
+        "oldPrice": 1500.00,
         "disponibility": "Outubro/Novembro",
         "available": true,
         "buyer": "",

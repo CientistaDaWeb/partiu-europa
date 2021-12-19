@@ -34,3 +34,7 @@
 .carousel-control-prev, .carousel-control-next {
     background-color: rgba(0, 0, 0, .3);
 }
+
+.oldPrice{
+    color: darkred;
+}
