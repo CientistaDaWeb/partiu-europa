@@ -138,7 +138,7 @@
         "price": 350.00,
         "oldPrice": 400.00,
         "disponibility": "Outubro/Novembro",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
@@ -151,7 +151,7 @@
         "price": 800.00,
         "oldPrice": 900.00,
         "disponibility": "Outubro/Novembro",
-        "available": true,
+        "available":false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
