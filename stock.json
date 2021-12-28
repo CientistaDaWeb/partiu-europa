@@ -175,7 +175,7 @@
     ]
   },
   {
-    "name": "Papelaria",
+    "name": "Papelaria e Artes",
     "slug": "papelaria",
     "available": true,
     "items": [
@@ -189,6 +189,19 @@
         "owner": ["B"],
         "photos": [
           "/images/refiladora.png"
+        ]
+      },
+      {
+        "name": "4 Livros de desenho + 3 Lápis Conté",
+        "description": "4 livros de técnica de desenho em perfeitas condições + 3 lápis Conté A Paris pouquíssimo usados, nas cores Blanc, Sanqguine e Pierre Noir (novos custam mais de R$20,00 cada).",
+        "price": 50.00,
+        "disponibility": "Imediata",
+        "available": true,
+        "buyer": "",
+        "owner": ["B"],
+        "photos": [
+          "/images/livroelapis1.png"
+          "/images/livroelapis2.png"
         ]
       }
     ]
