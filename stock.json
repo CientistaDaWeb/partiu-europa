@@ -32,7 +32,7 @@
         "price": 800.00,
         "oldPrice": 900.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
@@ -49,7 +49,7 @@
         "description": "Roller da Bruna",
         "price": 250.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
@@ -77,7 +77,7 @@
         "price": 230.00,
         "oldPrice": 280.00,
         "disponibility": "Imediata",
-        "available": true,
+        "available": false,
         "buyer": "",
         "owner": ["N"],
         "photos": [
