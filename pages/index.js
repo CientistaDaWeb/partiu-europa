@@ -9,7 +9,7 @@ export default function Home() {
                         <h1 className="text-amethyst h4">Home</h1>
                         <hr className="my-2"/>
                         <div className="jumbotron pt-4 pb-4">
-                            <h1 className="h2">Venda de garagem da Bru e do Nand0</h1>
+                            <h1 className="h2">Venda de garagem da Bru e do Nand0 - VENDAS ENCERRADAS</h1>
                             <p className="lead">Você pode navegar pelas categorias no menu e demonstrar interesse pelos
                                 itens clicando no
                                 botão de negociar.</p>
